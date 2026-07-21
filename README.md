@@ -1,5 +1,5 @@
-<h1 align="center">Hi, I am Mihlali Mdlangazi 👋</h1>
-<h3 align="center">Software Developer | ICT Applications Development Student</h3>
+<h1 align="center">Hi, I'm Mihlali Mdlangazi 👋</h1>
+<h3 align="center">Aspiring Software Developer | ICT Applications Development Student</h3>
 
 <p align="center">
   <a href="https://MihlaliMdlangazi.github.io"><img src="https://img.shields.io/badge/Portfolio-Visit-6D28D9?style=for-the-badge" alt="Portfolio"/></a>
@@ -25,7 +25,24 @@ I completed the CAPACITI AI Skills Acceleration Programme, including the Google 
 
 ---
 
-### 🎓 Certifications & Courses
+### 🛠️ Skills & Tech Stack
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+  <img src="https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white" alt="JUnit"/>
+</p>
+
+**Practices:** TDD · SOLID Principles · OOP · Design Patterns · Domain Driven Design
+
+---
 
 **CAPACITI AI Skills Acceleration Programme**
 - Python for Data Science, AI & Development — IBM
@@ -45,10 +62,10 @@ I completed the CAPACITI AI Skills Acceleration Programme, including the Google 
 ### 🚀 Projects
 
 **AnimeStore** — Capstone project, team of 5
-An e-commerce style application built as my final-year capstone, developed collaboratively with a team of five, applying full-stack development practices from design through deployment.
+An e-commerce style application built as my final-year capstone, developed collaboratively with a team of five. I worked across **both Back-End and Front-End**, building out the back-end logic and taking on front-end implementation to bring it to life — applying full-stack development practices from design through deployment.
 
 **UniTrade** — Student Marketplace Platform
-A marketplace application designed for students, including dashboard subsystem work, wireframes, and a formal system report. Built with a strong focus on additive, non-breaking changes to existing functionality.
+A marketplace application designed for students. I worked as a **Front-End Developer**, building the interface with **HTML, CSS, and JavaScript**, including dashboard subsystem work, wireframes, and a formal system report. Built with a strong focus on additive, non-breaking changes to existing functionality.
 
 **Tech Nova — AI Support Chatbot**
 An AI-powered support chatbot for a smart home device company, where I served as UI/UX Designer, shaping the interface design and presenting design decisions to the team.
