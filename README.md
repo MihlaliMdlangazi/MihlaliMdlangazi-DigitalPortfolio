@@ -69,6 +69,10 @@ An e-commerce style application built as my final-year capstone, developed colla
 **Role:** Front-End Developer (HTML, CSS, JavaScript)
 A marketplace application designed for students. I built out the interface, including dashboard subsystem work, wireframes, and a formal system report. Built with a strong focus on additive, non-breaking changes to existing functionality.
 
+**TN Mentor** by TechNova — Solo Project
+**Role:** Builder / Designer (solo)
+An AI companion built to help people learn technology — from prompt engineering and generative AI to Python, APIs, and databases. Built before the Tech Nova team project, using Lovable AI. Features programming help across multiple languages, AI and prompt engineering guidance, conversational memory across sessions, and a beginner-friendly, on-topic learning experience.
+
 **[Tech Nova](https://github.com/MihlaliMdlangazi/AI-ChatBot-technova-companion)** — AI Support Chatbot
 **Role:** UI/UX Designer
 An AI-powered support chatbot for a smart home device company. I shaped the interface design — color, typography, and layout decisions — and presented design decisions to the team.
