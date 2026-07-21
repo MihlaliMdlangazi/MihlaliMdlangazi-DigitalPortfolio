@@ -44,18 +44,18 @@ I completed the CAPACITI AI Skills Acceleration Programme, including the Google 
 
 ---
 
-**CAPACITI AI Skills Acceleration Programme**
-- Python for Data Science, AI & Development — IBM
-- Introduction to Artificial Intelligence (AI) — IBM
-- AI For Everyone — DeepLearning.AI
-- Generative AI: Prompt Engineering Basics — IBM
-
 **Google AI Essentials** *(completed as part of the CAPACITI AI Skills Acceleration Programme)*
 - Introduction to AI
 - Maximize Productivity With AI Tools
 - Discover the Art of Prompting
 - Use AI Responsibly
 - Stay Ahead of the AI Curve
+
+**Additional Courses**
+- Python for Data Science, AI & Development — IBM
+- Introduction to Artificial Intelligence (AI) — IBM
+- AI For Everyone — DeepLearning.AI
+- Generative AI: Prompt Engineering Basics — IBM
 
 ---
 
