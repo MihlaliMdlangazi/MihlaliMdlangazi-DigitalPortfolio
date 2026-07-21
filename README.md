@@ -1,10 +1,9 @@
-# MihlaliMdlangazi-DigitalPortfolio
-
-<h1 align="center">Hi, I'm Mihlali Mdlangazi 👋</h1>
-<h3 align="center">Aspiring Software Developer | ICT Applications Development Student</h3>
+<h1 align="center">Hi, I am Mihlali Mdlangazi 👋</h1>
+<h3 align="center">Software Developer | ICT Applications Development Student</h3>
 
 <p align="center">
   <a href="https://MihlaliMdlangazi.github.io"><img src="https://img.shields.io/badge/Portfolio-Visit-6D28D9?style=for-the-badge" alt="Portfolio"/></a>
+  <a href="https://mihlali-portfolio-sparkle.lovable.app"><img src="https://img.shields.io/badge/Lovable_Portfolio-Visit-FF6B9D?style=for-the-badge" alt="Lovable Portfolio"/></a>
 </p>
 
 ---
@@ -29,17 +28,17 @@ I completed the CAPACITI AI Skills Acceleration Programme, including the Google 
 ### 🎓 Certifications & Courses
 
 **CAPACITI AI Skills Acceleration Programme**
-- [Python for Data Science, AI & Development](https://www.coursera.org/learn/python-for-applied-data-science-ai/home/welcome) — IBM
-- [Introduction to Artificial Intelligence (AI)](https://www.coursera.org/learn/introduction-to-ai/home/welcome) — IBM
-- [AI For Everyone](https://www.coursera.org/learn/ai-for-everyone/home/welcome) — DeepLearning.AI
-- [Generative AI: Prompt Engineering Basics](https://www.coursera.org/learn/generative-ai-prompt-engineering-for-everyone/home/welcome) — IBM
+- Python for Data Science, AI & Development — IBM
+- Introduction to Artificial Intelligence (AI) — IBM
+- AI For Everyone — DeepLearning.AI
+- Generative AI: Prompt Engineering Basics — IBM
 
 **Google AI Essentials** *(completed as part of the CAPACITI AI Skills Acceleration Programme)*
-- [Introduction to AI](https://www.coursera.org/learn/google-introduction-to-ai/home/welcome)
-- [Maximize Productivity With AI Tools](https://www.coursera.org/learn/google-maximize-productivity-with-ai-tools/home/welcome)
-- [Discover the Art of Prompting](https://www.coursera.org/learn/google-discover-the-art-of-prompting/home/welcome)
-- [Use AI Responsibly](https://www.coursera.org/learn/google-use-ai-responsibly/home/welcome)
-- [Stay Ahead of the AI Curve](https://www.coursera.org/learn/google-stay-ahead-of-the-ai-curve/home/welcome)
+- Introduction to AI
+- Maximize Productivity With AI Tools
+- Discover the Art of Prompting
+- Use AI Responsibly
+- Stay Ahead of the AI Curve
 
 ---
 
@@ -70,6 +69,7 @@ I am constantly pushing myself to learn what's next: deepening my skills in AI-d
 
 <p align="left">
   <a href="https://MihlaliMdlangazi.github.io">🌐 Portfolio</a> •
+  <a href="https://mihlali-portfolio-sparkle.lovable.app">✨ Lovable Portfolio</a> •
   <a href="https://www.linkedin.com/in/mihlali-mdlangazi-94075b234">💼 LinkedIn</a> •
   <a href="mailto:mihlalimdlangazi@gmail.com">✉️ Email</a>
 </p>
