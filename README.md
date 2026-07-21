@@ -61,14 +61,26 @@ I completed the CAPACITI AI Skills Acceleration Programme, including the Google 
 
 ### 🚀 Projects
 
-**AnimeStore** — Capstone project, team of 5
-An e-commerce style application built as my final-year capstone, developed collaboratively with a team of five. I worked across **both Back-End and Front-End**, building out the back-end logic and taking on front-end implementation to bring it to life — applying full-stack development practices from design through deployment.
+**[AnimeStore](https://github.com/MihlaliMdlangazi/AnimeStore)** — Capstone project, team of 5
+**Role:** Back-End & Front-End Developer
+An e-commerce style application built as my final-year capstone, developed collaboratively with a team of five. I worked across both the back-end logic and front-end implementation to bring it to life — applying full-stack development practices from design through deployment.
 
-**UniTrade** — Student Marketplace Platform
-A marketplace application designed for students. I worked as a **Front-End Developer**, building the interface with **HTML, CSS, and JavaScript**, including dashboard subsystem work, wireframes, and a formal system report. Built with a strong focus on additive, non-breaking changes to existing functionality.
+**[UniTrade](https://github.com/MihlaliMdlangazi/UniTrade)** — Student Marketplace Platform
+**Role:** Front-End Developer (HTML, CSS, JavaScript)
+A marketplace application designed for students. I built out the interface, including dashboard subsystem work, wireframes, and a formal system report. Built with a strong focus on additive, non-breaking changes to existing functionality.
 
-**Tech Nova — AI Support Chatbot**
-An AI-powered support chatbot for a smart home device company, where I served as UI/UX Designer, shaping the interface design and presenting design decisions to the team.
+**[Tech Nova](https://github.com/MihlaliMdlangazi/AI-ChatBot-technova-companion)** — AI Support Chatbot
+**Role:** UI/UX Designer
+An AI-powered support chatbot for a smart home device company. I shaped the interface design — color, typography, and layout decisions — and presented design decisions to the team.
+
+**[AI-Powered Workplace Productivity Assistant](https://github.com/MihlaliMdlangazi/AI-Productivity-Assitant)** — Solo Project
+**Role:** Builder / Designer (solo)
+An AI assistant that automates everyday workplace tasks. Built using ChatGPT, Lovable.ai, and GitHub.
+- **Email Generator** — drafts professional emails by tone and audience
+- **Task Planner** — builds structured daily or weekly plans
+- **AI Chatbot** — answers workplace questions on demand
+
+🔗 [Live Demo](https://mihlali-ai-assistant-app.lovable.app/)
 
 ---
 
