@@ -1,5 +1,5 @@
-<h1 align="center">Hi, I'm Mihlali Mdlangazi 👋</h1>
-<h3 align="center">Aspiring Software Developer | ICT Applications Development Student</h3>
+<h1 align="center">Hi, I am Mihlali Mdlangazi 👋</h1>
+<h3 align="center">Software Developer | ICT Applications Development Student</h3>
 
 <p align="center">
   <a href="https://MihlaliMdlangazi.github.io"><img src="https://img.shields.io/badge/Portfolio-Visit-6D28D9?style=for-the-badge" alt="Portfolio"/></a>
