@@ -1,27 +1,41 @@
 <h1 align="center">Hi, I am Mihlali Mdlangazi 👋</h1>
-<h3 align="center">Software Developer | ICT Applications Development Student</h3>
+<h3 align="center">Software Developer | Industry Placement Trainee | ICT Applications Development</h3>
 
 <p align="center">
-  <a href="https://MihlaliMdlangazi.github.io"><img src="https://img.shields.io/badge/Portfolio-Visit-6D28D9?style=for-the-badge" alt="Portfolio"/></a>
+  <a href="https://MihlaliMdlangazi.github.io"><img src="https://img.shields.io/badge/Portfolio-Visit-6D28D9?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio"/></a>
   <a href="https://mihlali-portfolio-sparkle.lovable.app"><img src="https://img.shields.io/badge/Lovable_Portfolio-Visit-FF6B9D?style=for-the-badge" alt="Lovable Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/mihlali-mdlangazi-94075b234"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 </p>
+
+---
+
+### 📂 Assessment 2: GitHub Portfolio (Industry Placement)
+
+> **Note for Assessors:** This repository serves as the official portfolio submission for **Assessment 2 (50% mark allocation)** for the Industry Placement track at CPUT.
+
+| Document | Description | Direct Link |
+| :--- | :--- | :--- |
+| **01. Agile Team Charter** | Team vision, working agreements, roles, and communication rules at the placement company. | [View Charter](./docs/01-agile-team-charter.md) |
+| **02. User Stories & Tasks** | Detailed user stories, acceptance criteria, and task breakdowns for company projects. | [View Stories](./docs/02-user-stories-and-tasks.md) |
+| **03. Product Backlog** | Master backlog prioritized using MoSCoW methodology. | [View Product Backlog](./docs/03-product-backlog.md) |
+| **04. Sprint Backlog** | Dedicated sprint tasks, estimations, and execution tracking. | [View Sprint Backlog](./docs/04-sprint-backlog.md) |
+| **05. Agile Logbook** | Sprint retrospectives, ceremony evidence, and continuous learning notes. | [View Logbook](./docs/05-agile-logbook.md) |
 
 ---
 
 ### 🧭 About Me
 
-I am a final-year National Diploma student in Information and Communication Technology: Applications Development (NQF Level 6) at Cape Peninsula University of Technology (CPUT), Cape Town. I am passionate about using technology to create opportunities for young people, and I bring that value into every project I build, every application I write, and every line of code I ship.
+I am a final-year student pursuing a National Diploma in Information and Communication Technology: Applications Development (NQF Level 6) at Cape Peninsula University of Technology (CPUT), Cape Town. Currently gainfully engaged in my **Industry Placement**, I am passionate about leveraging technology to design opportunities, applying software engineering principles, and writing scalable code.
 
-I completed the CAPACITI AI Skills Acceleration Programme, including the Google AI Essentials certificate, which sharpened my foundation in applied AI concepts alongside my software development training.
+I have completed the **CAPACITI AI Skills Acceleration Programme** (including the **Google AI Essentials** certification), equipping me with a grounded foundation in applied AI concepts to complement my core software development skills.
 
 ---
 
-### 💻 What I Do Currently
+### 💻 Current Focus & Technical Competencies
 
-- Building full-stack applications with **Java, Spring Boot, Python, and React**, applying **TDD, SOLID principles, and OOP** in practice, not just theory.
-- Currently the **UI/UX Designer** on **Tech Nova**, a team project building an AI support chatbot for a smart home device company — owning color, typography, and layout decisions and translating them into a clear design rationale.
-- Exploring AI-assisted development, including building browser-based LLM applications and experimenting with API-driven chatbot architectures.
-- Actively pursuing junior software developer, graduate developer, internship, and Work Integrated Learning (WIL) opportunities.
+- **Industry Placement:** Actively delivering value on real-world industry software projects by applying **Agile / Scrum principles**, **TDD**, **SOLID**, and **OOP**.
+- **Tech Stack:** Building full-stack solutions utilizing **Java, Spring Boot, Python, and React**.
+- **UI/UX & AI Product Design:** Serving as the lead **UI/UX Designer** on **Tech Nova** (AI smart home support companion) while experimenting with browser-based LLM architectures and API-driven workflows.
 
 ---
 
@@ -40,69 +54,62 @@ I completed the CAPACITI AI Skills Acceleration Programme, including the Google 
   <img src="https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white" alt="JUnit"/>
 </p>
 
-**Practices:** TDD · SOLID Principles · OOP · Design Patterns · Domain Driven Design
+**Practices & Methodology:** Agile/Scrum · TDD · SOLID Principles · OOP · Design Patterns · Domain Driven Design
 
 ---
 
-**Google AI Essentials** *(completed as part of the CAPACITI AI Skills Acceleration Programme)*
-- Introduction to AI
-- Maximize Productivity With AI Tools
-- Discover the Art of Prompting
-- Use AI Responsibly
-- Stay Ahead of the AI Curve
+### 📜 Certifications & Specialized Training
 
-**Additional Courses**
-- Python for Data Science, AI & Development — IBM
-- Introduction to Artificial Intelligence (AI) — IBM
-- AI For Everyone — DeepLearning.AI
-- Generative AI: Prompt Engineering Basics — IBM
+**Google AI Essentials** *(CAPACITI AI Acceleration Programme)*
+- Introduction to AI Concepts & Toolkits
+- Maximizing Workplace Productivity via AI
+- Practical Prompt Engineering Architecture
+- Responsible AI & Ethics
+- Emerging AI Technologies & Trends
+
+**Additional Certifications**
+- *Python for Data Science, AI & Development* — IBM
+- *Introduction to Artificial Intelligence (AI)* — IBM
+- *AI For Everyone* — DeepLearning.AI
+- *Generative AI: Prompt Engineering Basics* — IBM
 
 ---
 
 ### 🚀 Projects
 
-**[AnimeStore](https://github.com/MihlaliMdlangazi/AnimeStore)** — Capstone project, team of 5
-**Role:** Back-End & Front-End Developer
-An e-commerce style application built as my final-year capstone, developed collaboratively with a team of five. I worked across both the back-end logic and front-end implementation to bring it to life — applying full-stack development practices from design through deployment.
+* **[AnimeStore](https://github.com/MihlaliMdlangazi/AnimeStore)** — *Capstone Project (Team of 5)*
+  * **Role:** Full-Stack Developer
+  * E-commerce platform built as a final-year capstone project. Managed back-end logic and front-end interface implementation using clean engineering practices.
 
-**[UniTrade](https://github.com/MihlaliMdlangazi/UniTrade)** — Student Marketplace Platform
-**Role:** Front-End Developer (HTML, CSS, JavaScript)
-A marketplace application designed for students. I built out the interface, including dashboard subsystem work, wireframes, and a formal system report. Built with a strong focus on additive, non-breaking changes to existing functionality.
+* **[UniTrade](https://github.com/MihlaliMdlangazi/UniTrade)** — *Student Marketplace Platform*
+  * **Role:** Front-End Developer
+  * Student trading platform interface focusing on dashboard subsystem work, wireframing, and systemic reporting with non-breaking additive updates.
 
-**TN Mentor** by TechNova — Solo Project
-**Role:** Builder / Designer (solo)
-An AI companion built to help people learn technology — from prompt engineering and generative AI to Python, APIs, and databases. Built before the Tech Nova team project, using Lovable AI. Features programming help across multiple languages, AI and prompt engineering guidance, conversational memory across sessions, and a beginner-friendly, on-topic learning experience.
+* **TN Mentor by TechNova** — *Solo Project*
+  * **Role:** Solo Developer / Designer
+  * Educational AI companion designed to teach tech concepts (Python, APIs, databases, prompt engineering) using interactive conversational memory.
 
-**[Tech Nova](https://github.com/MihlaliMdlangazi/AI-ChatBot-technova-companion)** — AI Support Chatbot
-**Role:** UI/UX Designer
-An AI-powered support chatbot for a smart home device company. I shaped the interface design — color, typography, and layout decisions — and presented design decisions to the team.
+* **[Tech Nova](https://github.com/MihlaliMdlangazi/AI-ChatBot-technova-companion)** — *AI Support Chatbot*
+  * **Role:** UI/UX Designer
+  * Designed end-to-end interface ergonomics, layout structure, color schemes, and typography for a smart-home customer support companion.
 
-**[AI-Powered Workplace Productivity Assistant](https://github.com/MihlaliMdlangazi/AI-Productivity-Assitant)** — Solo Project
-**Role:** Builder / Designer (solo)
-An AI assistant that automates everyday workplace tasks. Built using ChatGPT, Lovable.ai, and GitHub.
-- **Email Generator** — drafts professional emails by tone and audience
-- **Task Planner** — builds structured daily or weekly plans
-- **AI Chatbot** — answers workplace questions on demand
-
-🔗 [Live Demo](https://mihlali-ai-assistant-app.lovable.app/)
+* **[AI Workplace Productivity Assistant](https://github.com/MihlaliMdlangazi/AI-Productivity-Assitant)** — *Solo Project*
+  * **Role:** Solo Developer
+  * Automated productivity assistant offering tone-adjusted email generation, automated task planning, and on-demand query handling. ([Live Demo](https://mihlali-ai-assistant-app.lovable.app/))
 
 ---
 
-### 🌱 Where I'm Going
+### 🌱 Strategic Goals & Mission
 
-I am building toward a career as a software developer who doesn't just write code, but engineers solutions that matter. My goal is to work at the intersection of solid software engineering and applied AI — building products that are well-architected, thoughtfully designed, and genuinely useful.
-
-I am driven by a bigger purpose: using technology as a bridge to opportunity for young people who don't always have easy access to tech careers. I want to be part of the generation of developers coming out of South Africa who build world-class software while actively opening doors behind them — through mentorship, through accessible education, and through the products I choose to build.
-
-I am constantly pushing myself to learn what's next: deepening my skills in AI-driven development, exploring how large language models can be integrated into real products, and sharpening my craft in clean architecture, testing, and design. I don't want to just keep up with where technology is going — I want to be one of the people building it.
+I aim to bridge robust software engineering with applied AI, engineering scalable solutions that deliver measurable real-world impact. Beyond writing code, I am committed to using technology as a vehicle for opening tech career opportunities for young developers across South Africa through mentorship, accessible educational tools, and community-driven products.
 
 ---
 
-### 📫 Let's Connect
+### 📫 Contact & Connections
 
 <p align="left">
-  <a href="https://MihlaliMdlangazi.github.io">🌐 Portfolio</a> •
-  <a href="https://mihlali-portfolio-sparkle.lovable.app">✨ Lovable Portfolio</a> •
+  <a href="https://MihlaliMdlangazi.github.io">🌐 Digital Portfolio</a> •
+  <a href="https://mihlali-portfolio-sparkle.lovable.app">✨ Interactive Portfolio</a> •
   <a href="https://www.linkedin.com/in/mihlali-mdlangazi-94075b234">💼 LinkedIn</a> •
   <a href="mailto:mihlalimdlangazi@gmail.com">✉️ Email</a>
 </p>
