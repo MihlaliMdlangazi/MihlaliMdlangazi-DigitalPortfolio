@@ -4,10 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mihlali Mdlangazi | Digital Portfolio</title>
+  
+  <!-- Inter & JetBrains Mono Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
   <style>
+    :root {
+      --bg-dark: #0A0E27;
+      --card-bg: rgba(18, 24, 58, 0.65);
+      --card-border: rgba(139, 92, 246, 0.2);
+      --card-border-hover: rgba(168, 85, 247, 0.5);
+      
+      --accent-purple: #8B5CF6;
+      --accent-indigo: #6366F1;
+      --accent-glow: rgba(139, 92, 246, 0.25);
+      
+      --text-main: #F1F5F9;
+      --text-muted: #94A3B8;
+      --text-highlight: #A855F7;
+    }
+
     * {
       margin: 0;
       padding: 0;
@@ -16,127 +34,335 @@
 
     body {
       font-family: 'Inter', -apple-system, sans-serif;
-      background: #0A0E27;
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      line-height: 1.6;
+      min-height: 100vh;
+      overflow-x: hidden;
     }
 
+    /* Outer Section Container */
     .about-section {
-      background: #0A0E27;
-      color: #E8E8F0;
-      padding: 80px 24px;
+      position: relative;
+      padding: 100px 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: radial-gradient(circle at 50% 20%, #1a103c 0%, var(--bg-dark) 70%);
+      overflow: hidden;
+    }
+
+    /* Glowing Background Orbs */
+    .glow-orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(100px);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .glow-1 {
+      top: 10%;
+      left: 15%;
+      width: 320px;
+      height: 320px;
+      background: rgba(139, 92, 246, 0.18);
+    }
+
+    .glow-2 {
+      bottom: 10%;
+      right: 15%;
+      width: 380px;
+      height: 380px;
+      background: rgba(99, 102, 241, 0.15);
     }
 
     .about-container {
-      max-width: 760px;
-      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+      max-width: 960px;
+      width: 100%;
+    }
+
+    /* Header Styling */
+    .about-header {
+      margin-bottom: 40px;
     }
 
     .about-eyebrow {
-      display: inline-block;
-      color: #A78BFA;
-      font-size: 13px;
-      font-weight: 600;
-      letter-spacing: 0.08em;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 1.5px;
       text-transform: uppercase;
-      margin-bottom: 16px;
+      color: var(--accent-purple);
+      background: rgba(139, 92, 246, 0.1);
+      border: 1px solid rgba(139, 92, 246, 0.3);
       padding: 6px 14px;
-      border: 1px solid rgba(167, 139, 250, 0.3);
-      border-radius: 999px;
-      background: rgba(167, 139, 250, 0.08);
+      border-radius: 20px;
+      margin-bottom: 16px;
+    }
+
+    .about-eyebrow::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: var(--accent-purple);
+      box-shadow: 0 0 8px var(--accent-purple);
     }
 
     .about-heading {
-      font-size: clamp(28px, 4vw, 40px);
+      font-size: 2.75rem;
       font-weight: 700;
       color: #FFFFFF;
-      margin: 0 0 28px 0;
-      line-height: 1.2;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
     }
 
     .about-heading span {
-      color: #A78BFA;
+      background: linear-gradient(135deg, #C084FC 0%, #6366F1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
 
+    /* Bento Grid Layout */
+    .bento-grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    /* Bento Card Styling */
+    .bento-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 30px;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .bento-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    }
+
+    .bento-card:hover {
+      border-color: var(--card-border-hover);
+      transform: translateY(-4px);
+      box-shadow: 0 20px 40px -15px var(--accent-glow);
+    }
+
+    /* Grid Span Configurations */
+    .col-12 { grid-column: span 12; }
+    .col-7  { grid-column: span 7; }
+    .col-5  { grid-column: span 5; }
+    .col-6  { grid-column: span 6; }
+
     .about-text {
-      font-size: 17px;
-      line-height: 1.75;
-      color: #C4C4D4;
-      margin: 0 0 20px 0;
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      line-height: 1.7;
     }
 
     .about-text strong {
-      color: #E8E8F0;
+      color: var(--text-main);
       font-weight: 600;
     }
 
+    .about-text em {
+      color: var(--text-highlight);
+      font-style: normal;
+      font-weight: 500;
+    }
+
+    /* Highlight Pills inside cards */
+    .tech-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    .pill {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #CBD5E1;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+
+    /* Call to Action Buttons */
     .about-cta-row {
       display: flex;
-      gap: 14px;
-      margin-top: 36px;
-      flex-wrap: wrap;
+      align-items: center;
+      gap: 16px;
     }
 
     .about-btn {
-      display: inline-block;
-      padding: 12px 26px;
-      border-radius: 10px;
-      font-size: 15px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 32px;
+      border-radius: 12px;
       font-weight: 600;
+      font-size: 0.95rem;
       text-decoration: none;
-      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      transition: all 0.25s ease;
+      cursor: pointer;
     }
 
     .about-btn-primary {
-      background: linear-gradient(135deg, #7C3AED, #4C1D95);
+      background: linear-gradient(135deg, #8B5CF6 0%, #6366F1 100%);
       color: #FFFFFF;
-      box-shadow: 0 4px 20px rgba(124, 58, 237, 0.35);
+      box-shadow: 0 4px 20px rgba(139, 92, 246, 0.35);
+      border: 1px solid rgba(255, 255, 255, 0.15);
     }
 
     .about-btn-primary:hover {
+      box-shadow: 0 6px 24px rgba(139, 92, 246, 0.5);
       transform: translateY(-2px);
-      box-shadow: 0 6px 24px rgba(124, 58, 237, 0.45);
     }
 
     .about-btn-secondary {
-      background: transparent;
-      color: #C4C4D4;
-      border: 1px solid rgba(196, 196, 212, 0.25);
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--text-main);
+      border: 1px solid rgba(255, 255, 255, 0.12);
     }
 
     .about-btn-secondary:hover {
-      border-color: rgba(196, 196, 212, 0.5);
-      color: #FFFFFF;
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(255, 255, 255, 0.25);
+      transform: translateY(-2px);
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 900px) {
+      .col-7, .col-5, .col-6 {
+        grid-column: span 12;
+      }
+      
+      .about-heading {
+        font-size: 2.25rem;
+      }
     }
   </style>
 </head>
 <body>
 
   <section id="about" class="about-section">
+    <!-- Subtle Background Ambient Glows -->
+    <div class="glow-orb glow-1"></div>
+    <div class="glow-orb glow-2"></div>
+
     <div class="about-container">
-      <span class="about-eyebrow">About Me</span>
-      <h2 class="about-heading">Building software, <span>designing opportunity</span></h2>
+      
+      <!-- Section Header -->
+      <div class="about-header">
+        <span class="about-eyebrow">About Me</span>
+        <h2 class="about-heading">Building software, <span>designing opportunity</span></h2>
+      </div>
 
-      <p class="about-text">
-        I am Mihlali Mdlangazi, a final-year Information and Communication Technology: Applications Development student at Cape Peninsula University of Technology in Cape Town. My path into software development has been built one project at a time, from wireframes and dashboard work on UniTrade, to full-stack development on my capstone project AnimeStore, to designing the user experience for an AI chatbot on Tech Nova.
-      </p>
+      <!-- Bento Box Layout -->
+      <div class="bento-grid">
+        
+        <!-- Main Intro Card -->
+        <div class="bento-card col-12 js-tilt">
+          <p class="about-text">
+            I am <strong>Mihlali Mdlangazi</strong>, a final-year Application Development student at Cape Peninsula University of Technology (CPUT). Currently working on my <strong>Industry Placement</strong>, my journey into software engineering is built block-by-block—from wireframes and dashboards on <em>UniTrade</em> to full-stack development on <em>AnimeStore</em> and AI interface design on <em>Tech Nova</em>.
+          </p>
+        </div>
 
-      <p class="about-text">
-        I have worked across <strong>front-end, back-end, and UI/UX design</strong>, and I would like to keep building that range rather than staying in one lane. I care about writing clean, well-tested code that follows solid engineering principles, and I bring the same care to how an interface looks and feels for the person using it.
-      </p>
+        <!-- Full Stack & Engineering Principles -->
+        <div class="bento-card col-7 js-tilt">
+          <p class="about-text">
+            I bridge the gap between <strong>front-end, back-end, and UI/UX design</strong>. I focus on writing clean, well-tested code following solid engineering practices, paired with clean visual aesthetics.
+          </p>
+          <div class="tech-pills">
+            <span class="pill">Full-Stack Development</span>
+            <span class="pill">Clean Code</span>
+            <span class="pill">UI/UX Design</span>
+            <span class="pill">Agile</span>
+          </div>
+        </div>
 
-      <p class="about-text">
-        I completed the CAPACITI AI Skills Acceleration Programme, including Google AI Essentials, which pushed me to start exploring how AI tools can support real, everyday problems. That curiosity led me to build TN Mentor and an AI Productivity Assistant on my own, outside of coursework.
-      </p>
+        <!-- AI Experience -->
+        <div class="bento-card col-5 js-tilt">
+          <p class="about-text">
+            Completed the <strong>CAPACITI AI Acceleration Programme</strong> & <strong>Google AI Essentials</strong>. Built projects like <em>TN Mentor</em> and an <em>AI Productivity Assistant</em>.
+          </p>
+          <div class="tech-pills">
+            <span class="pill">Google AI Essentials</span>
+            <span class="pill">AI Assistant Integration</span>
+          </div>
+        </div>
 
-      <p class="about-text">
-        I am currently looking for junior developer, graduate developer, internship, or Work Integrated Learning (WIL) opportunities where I can contribute from day one and continue growing as an engineer.
-      </p>
+      </div>
 
+      <!-- Call to Action Buttons -->
       <div class="about-cta-row">
         <a href="#projects" class="about-btn about-btn-primary">View My Work</a>
         <a href="mailto:mihlalimdlangazi@gmail.com" class="about-btn about-btn-secondary">Get In Touch</a>
       </div>
+
     </div>
   </section>
+
+  <!-- JavaScript Interactivity -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Subtle 3D Mouse Tilt Effect for Bento Cards
+      const cards = document.querySelectorAll('.js-tilt');
+
+      cards.forEach(card => {
+        card.addEventListener('mousemove', (e) => {
+          const rect = card.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+
+          const centerX = rect.width / 2;
+          const centerY = rect.height / 2;
+
+          const rotateX = ((y - centerY) / centerY) * -4;
+          const rotateY = ((x - centerX) / centerX) * 4;
+
+          card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-4px)`;
+        });
+
+        card.addEventListener('mouseleave', () => {
+          card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0px)';
+        });
+      });
+
+      // 2. Dynamic Glow Follower on Background
+      const section = document.querySelector('.about-section');
+      const glow1 = document.querySelector('.glow-1');
+
+      section.addEventListener('mousemove', (e) => {
+        const rect = section.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        glow1.style.transform = `translate(${x * 0.05}px, ${y * 0.05}px)`;
+      });
+    });
+  </script>
 
 </body>
 </html>
